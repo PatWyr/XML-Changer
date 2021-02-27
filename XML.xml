@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?><Komis>
+
+<Autor>
+<Imie>Patryk</Imie>
+<Nazwisko>Wyrwich</Nazwisko>
+<NrIndeksu>230042</NrIndeksu>
+<Data_modyfikacji>17.10.2020</Data_modyfikacji>
+</Autor>
+
+
+<!--Ocena jest wartoscia od -3 do 3 gdzie najlepsza to 3 a najgorsza to -3-->
+
+
+<Nadwozie>
+
+<Rodzaj Id="Kombi"/>
+<Rodzaj Id="Sedan"/>
+<Rodzaj Id="Suv"/>
+<Rodzaj Id="Crossover"/>
+<Rodzaj Id="Limuzyna"/>
+<Rodzaj Id="Hetchback"/>
+
+</Nadwozie>
+
+<Samochody>
+<Samochod Nr="S1" Nadwozie="Hetchback" NrWlasciciela="pierwszy">
+<Nr_kat>1</Nr_kat>
+<Marka>qw</Marka>
+<Model>DS4</Model>
+<Cena Waluta="$">75000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2017</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2017</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>3.11.2020</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.400</Wysokosc>
+<Szerokosc>1.800 </Szerokosc>
+<Dlugosc>4.200</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>140</HP>
+<Ocena IDOC="3">3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S2" Nadwozie="Kombi" NrWlasciciela="pierwszy">
+<Nr_kat>2</Nr_kat>
+<Marka>Volkswagen</Marka>
+<Model>Passat</Model>
+<Cena Waluta="$">10000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2005</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2006</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.300</Wysokosc>
+<Szerokosc> 2.000</Szerokosc>
+<Dlugosc>3.800</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Powypadkowy</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>160</HP>
+<Ocena IDOC="0">0</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S3" Nadwozie="Suv" NrWlasciciela="drugi">
+<Nr_kat>3</Nr_kat>
+<Marka>Fiat</Marka>
+<Model>Multipla</Model>
+<Cena Waluta="$">13000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2004</Data_produkcji>
+<Data_pierwszej_rejestracji>13.2.2004</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>13.8.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>3.600</Wysokosc>
+<Szerokosc>3.200</Szerokosc>
+<Dlugosc>4.800</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brzydki</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>80</HP>
+<Ocena IDOC="-1">-1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S4" Nadwozie="Hetchback" NrWlasciciela="trzeci">
+<Nr_kat>4</Nr_kat>
+<Marka>Volkswagen</Marka>
+<Model>Polo</Model>
+<Cena Waluta="$">6000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2006</Data_produkcji>
+<Data_pierwszej_rejestracji>2.9.2006</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>16.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.300</Wysokosc>
+<Szerokosc>2.100</Szerokosc>
+<Dlugosc>3.200</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Zalany</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>130</HP>
+<Ocena IDOC="1">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S5" Nadwozie="Limuzyna" NrWlasciciela="pierwszy">
+<Nr_kat>5</Nr_kat>
+<Marka>Audi</Marka>
+<Model>A4</Model>
+<Cena Waluta="$">60000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2016</Data_produkcji>
+<Data_pierwszej_rejestracji>20.10.2016</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>11.7.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.500</Wysokosc>
+<Szerokosc>2.200</Szerokosc>
+<Dlugosc>4.400</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Lakierowany</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>180</HP>
+<Ocena IDOC="-2">-2</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S6" Nadwozie="Hetchback" NrWlasciciela="pierwszy">
+<Nr_kat>6</Nr_kat>
+<Marka>Nissan</Marka>
+<Model>Micra</Model>
+<Cena Waluta="$">10000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2003</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2013</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.200</Wysokosc>
+<Szerokosc>1.800</Szerokosc>
+<Dlugosc>2.800</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>100</HP>
+<Ocena IDOC="1">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S7" Nadwozie="Kombi" NrWlasciciela="drugi">
+<Nr_kat>7</Nr_kat>
+<Marka>Volvo</Marka>
+<Model>S60</Model>
+<Cena Waluta="$">23000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2015</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2016</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>8.9.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2300.00</Wysokosc>
+<Szerokosc>2330.00</Szerokosc>
+<Dlugosc>3400.00</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak opon</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>140</HP>
+<Ocena IDOC="3">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S8" Nadwozie="Sedan">
+<Nr_kat>8</Nr_kat>
+<Marka>Volvo</Marka>
+<Model>S40</Model>
+<Cena Waluta="$">30000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2014</Data_produkcji>
+<Data_pierwszej_rejestracji>20.8.2014</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.2.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>3.200</Wysokosc>
+<Szerokosc>2.500</Szerokosc>
+<Dlugosc>4.200</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak radia</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>150</HP>
+<Ocena IDOC="-2">-2</Ocena>
+</Samochod>
+
+<Samochod Nr="S9" Nadwozie="Sedan" NrWlasciciela="pierwszy">
+<Nr_kat>9</Nr_kat>
+<Marka>Nissan</Marka>
+<Model>Meriba</Model>
+<Cena Waluta="$">8000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2003</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2004</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>20.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.300</Wysokosc>
+<Szerokosc>2.300</Szerokosc>
+<Dlugosc>3.200</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak akumulatora</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>110</HP>
+<Ocena IDOC="1">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S10" Nadwozie="Kombi" NrWlasciciela="drugi">
+<Nr_kat>10</Nr_kat>
+<Marka>Citroen</Marka>
+<Model>C3</Model>
+<Cena Waluta="$">23000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2012</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2012</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.300</Wysokosc>
+<Szerokosc>2.400</Szerokosc>
+<Dlugosc>3.990</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>90</HP>
+<Ocena IDOC="3">3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S11" Nadwozie="Limuzyna" NrWlasciciela="trzeci">
+<Nr_kat>11</Nr_kat>
+<Marka>BMW</Marka>
+<Model>E49</Model>
+<Cena Waluta="$">16000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2003</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2013</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>11.12.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.400</Wysokosc>
+<Szerokosc>2.900</Szerokosc>
+<Dlugosc>3.890</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Zatarty silnik</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>140</HP>
+<Ocena IDOC="-1">-1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S12" Nadwozie="Suv" NrWlasciciela="pierwszy">
+<Nr_kat>12</Nr_kat>
+<Marka>BMW</Marka>
+<Model>F31</Model>
+<Cena Waluta="$">300000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2018</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2018</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.11.2019</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.400</Wysokosc>
+<Szerokosc>2.500</Szerokosc>
+<Dlugosc>4.900</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>200</HP>
+<Ocena IDOC="3">3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S13" Nadwozie="Kombi" NrWlasciciela="pierwszy">
+<Nr_kat>13</Nr_kat>
+<Marka>FSO</Marka>
+<Model>Polonez</Model>
+<Cena Waluta="$">1000000.00$</Cena>
+<Daty>
+
+<Data_produkcji>1990</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.1990</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>8.9.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>3.200</Wysokosc>
+<Szerokosc>2.800</Szerokosc>
+<Dlugosc>3.500</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak swiatel</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>1400</HP>
+<Ocena IDOC="3">3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S14" Nadwozie="Kombi" NrWlasciciela="pierwszy">
+<Nr_kat>14</Nr_kat>
+<Marka>Skoda</Marka>
+<Model>Rapid</Model>
+<Cena Waluta="$">12000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2013</Data_produkcji>
+<Data_pierwszej_rejestracji>2.8.2014</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>9.12.2020</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>2.400</Wysokosc>
+<Szerokosc>3.100</Szerokosc>
+<Dlugosc>3.800</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Przetarty bok</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>90</HP>
+<Ocena IDOC="1">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S15" Nadwozie="Crossover" NrWlasciciela="drugi">
+<Nr_kat>15</Nr_kat>
+<Marka>Seat</Marka>
+<Model>Ibiza</Model>
+<Cena Waluta="$">9000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2013</Data_produkcji>
+<Data_pierwszej_rejestracji>5.10.2013</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>4.6.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.300</Wysokosc>
+<Szerokosc>3.200</Szerokosc>
+<Dlugosc>4.000</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak opon</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>140</HP>
+<Ocena IDOC="2">2</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S16" Nadwozie="Kombi" NrWlasciciela="pierwszy">
+<Nr_kat>16</Nr_kat>
+<Marka>BMW</Marka>
+<Model>E46</Model>
+<Cena Waluta="$">1200.00$</Cena>
+<Daty>
+
+<Data_produkcji>1987</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.1987</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.2.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.700</Wysokosc>
+<Szerokosc>2.300</Szerokosc>
+<Dlugosc>3.600</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Uszkodzony</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>190</HP>
+<Ocena IDOC="0">0</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S17" Nadwozie="Sedan" NrWlasciciela="pierwszy">
+<Nr_kat>17</Nr_kat>
+<Marka>Volkswagen</Marka>
+<Model>Arteon</Model>
+<Cena Waluta="$">250000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2018</Data_produkcji>
+<Data_pierwszej_rejestracji>22.4.2018</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>6.4.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.400</Wysokosc>
+<Szerokosc>2.300</Szerokosc>
+<Dlugosc>4.300</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Lakierowany</Uwagi>
+<Paliwo>Diesel</Paliwo>
+<HP>240</HP>
+<Ocena IDOC="1">1</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S18" Nadwozie="Hetchback" NrWlasciciela="pierwszy">
+<Nr_kat>18</Nr_kat>
+<Marka>Skoda</Marka>
+<Model>City</Model>
+<Cena Waluta="$">25000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2014</Data_produkcji>
+<Data_pierwszej_rejestracji>2.7.2014</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>2.11.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.500</Wysokosc>
+<Szerokosc>2.000</Szerokosc>
+<Dlugosc>3.400</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Brak</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>140</HP>
+<Ocena IDOC="3">3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S19" Nadwozie="Kombi" NrWlasciciela="drugi">
+<Nr_kat>19</Nr_kat>
+<Marka>Volkswagen</Marka>
+<Model>Golf</Model>
+<Cena Waluta="$">10200.00$</Cena>
+<Daty>
+
+<Data_produkcji>2010</Data_produkcji>
+<Data_pierwszej_rejestracji>2.4.2010</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>20.11.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.400</Wysokosc>
+<Szerokosc>2.200</Szerokosc>
+<Dlugosc>3.500</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Lakierowany</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>100</HP>
+<Ocena IDOC="-3">-3</Ocena>
+</Samochod>
+
+
+<Samochod Nr="S20" Nadwozie="Kombi" NrWlasciciela="pierwszy">
+<Nr_kat>20</Nr_kat>
+<Marka>Fiat</Marka>
+<Model>500</Model>
+<Cena Waluta="$">25000.00$</Cena>
+<Daty>
+
+<Data_produkcji>2014</Data_produkcji>
+<Data_pierwszej_rejestracji>2.10.2014</Data_pierwszej_rejestracji>
+<Data_konca_ubezpieczenia>22.1.2021</Data_konca_ubezpieczenia>
+
+</Daty>
+<Rozmiar>
+
+<Wysokosc>1.500</Wysokosc>
+<Szerokosc>2.300</Szerokosc>
+<Dlugosc>3.400</Dlugosc>
+
+</Rozmiar>
+
+<Uwagi>Powypadkowy</Uwagi>
+<Paliwo>Benzyna</Paliwo>
+<HP>160</HP>
+<Ocena IDOC="-1">-1</Ocena>
+</Samochod>
+
+</Samochody>
+
+</Komis>
